@@ -1,0 +1,63 @@
+* {
+
+}
+
+:root {
+  --background-green: #002A24;
+}
+
+header{
+  display: flex;
+  color: #fff;
+  background-color: var(--background-green);
+}
+
+#favtext {
+  font-size: 20;
+  font-weight: 700;
+}
+
+
+#login-btn {
+  font-size: 8;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+#login-btn:hover {
+}
+
+#main-content {
+  /* padding: 15%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  width: 99vw ;
+  height: 87vh;
+
+}
+
+#text-content {
+  width: 300px;
+}
+
+#text-content div {
+  margin: 20px;
+}
+
+#title-content {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+a:hover, a:link, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card {
+  width: 300px;
+}
