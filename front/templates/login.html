@@ -10,14 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../static/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="static/css/style.css" />
-    <script src="static/js/script.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -36,7 +35,7 @@
       crossorigin="anonymous"
       defer
     ></script>
-    <title>Project</title>
+    <title>Login</title>
   </head>
   <body>
     <header id="nav" class="px-5 navbar navbar-dark justify-content-between">
@@ -45,7 +44,7 @@
         <img
           width="20em"
           alt="profile-icon"
-          src="static/assets/profile-icon.svg"
+          src="../static/assets/profile-icon.svg"
           class="mx-2"
         />
         <button id="login-btn">
@@ -53,20 +52,44 @@
         </button>
       </div>
     </header>
-    <main>
-      <div id="main-content">
-        <div id="text-content" class="mx-4">
-          <div id="title-content">Lorem ipsum dolor</div>
-          <div id="long-text-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-            quidem, ipsa minima facilis sunt voluptatibus delectus
-          </div>
-          <div id="action-content">
-            <button class="btn btn-success">Lorem Ipsum</button>
-          </div>
-        </div>
-        <div id="img-content" class="mx-4">
-          <img width="250vw" alt="doctor-img" src="static/assets/doctor.jpg" />
+    <main class="mx-auto">
+      <div id="login-card" class="card">
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </main>
