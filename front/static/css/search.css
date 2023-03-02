@@ -1,0 +1,7 @@
+:root {
+  --bootstrap-green: #198754;
+}
+
+.pagelink.active .active-link{
+  color: var(--bootstrap-green) !important;
+}
