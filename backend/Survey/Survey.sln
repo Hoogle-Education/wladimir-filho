@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survey", "Survey\Survey.csproj", "{76D1F6BA-7BBF-4E3D-9CAF-FA19CCA5012B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyWebpage", "SurveyWebpage\SurveyWebpage.csproj", "{76D1F6BA-7BBF-4E3D-9CAF-FA19CCA5012B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
