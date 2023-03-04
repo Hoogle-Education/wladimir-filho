@@ -17,7 +17,6 @@
       <Folder Include="Config" />
       <Folder Include="Controllers" />
       <Folder Include="Domain\DTO" />
-      <Folder Include="Infra\Repository" />
       <Folder Include="Infra\Services" />
     </ItemGroup>
 
