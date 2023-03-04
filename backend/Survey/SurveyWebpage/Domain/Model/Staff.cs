@@ -1,6 +1,6 @@
 ﻿namespace Survey.Domain.Model; 
 
-public class Staff {
+public class Staff : Entity {
 
     public string Username { get; set; }
     

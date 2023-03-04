@@ -1,6 +1,6 @@
 ﻿namespace Survey.Domain.Model; 
 
-public class Person {
+public class Person : Entity {
     
     public string? FirstName { get; set; }
     

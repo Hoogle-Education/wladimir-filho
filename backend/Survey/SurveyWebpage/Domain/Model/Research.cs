@@ -1,6 +1,8 @@
-﻿namespace Survey.Domain.Model; 
+﻿using Survey.Domain.Interfaces;
 
-public class Survey {
+namespace Domain.Model; 
+
+public class Research : Entity {
 
     public Person Person { get; set; } = null!;
 

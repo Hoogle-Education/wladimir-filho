@@ -1,6 +1,6 @@
 ﻿namespace Survey.Domain.Model; 
 
-public class Adress {
+public class Adress : Entity {
     
     public string Postcode { get; set; } = null!;
 
