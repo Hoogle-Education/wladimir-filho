@@ -1,6 +1,6 @@
 ﻿using Survey.Domain.Interfaces;
 
-namespace Domain.Model; 
+namespace Survey.Domain.Model; 
 
 public class Research : Entity {
 

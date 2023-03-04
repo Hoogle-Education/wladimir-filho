@@ -1,4 +1,6 @@
-﻿namespace Survey.Domain.Model; 
+﻿using Survey.Domain.Interfaces;
+
+namespace Survey.Domain.Model; 
 
 public class Staff : Entity {
 

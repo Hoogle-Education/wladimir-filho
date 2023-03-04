@@ -1,4 +1,7 @@
-﻿namespace Survey.Domain.Model; 
+﻿using Survey.Domain.Interfaces;
+using Survey.Domain.Model.Enums;
+
+namespace Survey.Domain.Model; 
 
 public class Person : Entity {
     
@@ -13,5 +16,7 @@ public class Person : Entity {
     public DateTime? BirthDate { get; set; }
 
     public Gender? Gender { get; set; } = null!;
+    public Research Research { get; set; } = null!;
+    public int ResearchId { get; set; }
 
 }
